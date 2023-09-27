@@ -1,0 +1,66 @@
+/* media queries */
+@media (max-width: 450px) {
+    .app-name {
+        font-size: 2.5rem;
+    }
+
+    .display-container {
+        padding: 2rem 2.5rem 1.5rem;
+    }
+
+    input.display {
+        font-size: 2rem;
+    }
+
+    .slider::-webkit-slider-thumb {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    .slider::-webkit-slider-thumb:hover {
+        box-shadow: 0px 0px 10px 4px rgba(255, 229, 61, 0.80);
+    }
+
+    .slider::-moz-range-thumb:hover {
+        box-shadow: 0px 0px 10px 4px rgba(255, 229, 61, 0.80);
+    }
+}
+
+@media (max-width: 390px) {
+    .display-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .input-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    input.display {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .app-name {
+        font-size: 2rem;
+    }
+
+    .checkbox-container label {
+        font-size: 1.7rem;
+    }
+
+    input.display {
+        font-size: 1.4rem;
+    }
+
+    #generateButton {
+        font-size: 1.7rem;
+    }
+}
